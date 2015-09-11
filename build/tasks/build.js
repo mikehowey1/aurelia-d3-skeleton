@@ -30,7 +30,7 @@ gulp.task('build-html', function () {
     .pipe(gulp.dest(paths.output));
 });
 
-// copies changed html files to the output directory
+// copies changed data files to the output directory
 gulp.task('build-data', function () {
   return gulp.src(paths.dataFiles)
     .pipe(gulp.dest(paths.output));
